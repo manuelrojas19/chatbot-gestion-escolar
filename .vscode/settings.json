@@ -1,8 +1,0 @@
-{
-    "python.pythonPath": "/home/manuelr/chatbot-gestion-escolar/bin/python",
-    "python.analysis.extraPaths": [
-        "./chatbot/handlers",
-        "./chatbot"
-    ],
-    "python.formatting.provider": "autopep8"
-}
