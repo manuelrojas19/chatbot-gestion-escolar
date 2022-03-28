@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/manuelr/chatbot-gestion-escolar/bin/python3.10",
+    "python.analysis.extraPaths": [
+        "./chatbot"
+    ]
+}
