@@ -7,14 +7,14 @@ from telegram.ext import (
 from telegram import Update
 
 # TRAMITES
-tramites_comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionadas al tema de Dictámenes.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1: ¿Dónde puedo solicitar un trámite?: /tramites_opc1\nPregunta 2: ¿Cuánto es el tiempo de espera de mi trámite?: /tramite_opc2\nPregunta 3: ¿Qué pasa si no puedo ingresar a la plataforma aún con mis datos de acceso?: /reinscripcion_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
-# Pregunta 1: ¿Qué dictamen debo de solicitar si estoy desfasado?
+tramites_comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionadas al tema de Trámites.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Dónde puedo solicitar un trámite?: /tramites_opc1\nPregunta 2:¿Cuánto es el tiempo de espera de mi trámite?: /tramites_opc2\nPregunta 3:¿Qué pasa si no puedo ingresar a la plataforma aún con mis datos de acceso?: /tramites_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+# Pregunta 1: ¿Dónde puedo solicitar un trámite?
 # respuesta 1
-tramites1 = 'Deberás solicitarlo a través de la plataforma www.tramites.upiicsa.ipn.mx\n\nUsuario: Boleta\n\nContraseña: Apellido paterno en minúsculas'
-# Pregunta 2: ¿En qué casos debo de solicitar dictamen ZACATENCO?
+tramites1 = '¿Dónde puedo solicitar un trámite?\n\nDeberás solicitarlo a través de la plataforma www.tramites.upiicsa.ipn.mx\n\nUsuario: Boleta\n\nContraseña: Apellido paterno en minúsculas'
+# Pregunta 2: ¿Cuánto es el tiempo de espera de mi trámite?
 # respuesta 2
-tramites2 = 'Constancias (estudios, periodo vacacional, servicio social y prácticas) de 5 a 10 días hábiles\n\nBoleta Global de 15 a 20 días hábiles\n\nBoleta Global Certificada de 30 a 40 días hábiles'
-# Pregunta 3: ¿Dónde puedo ver la resolución de mi dictamen?
+tramites2 = '¿Cuánto es el tiempo de espera de mi trámite?\n\nConstancias (estudios, periodo vacacional, servicio social y prácticas) de 5 a 10 días hábiles\n\nBoleta Global de 15 a 20 días hábiles\n\nBoleta Global Certificada de 30 a 40 días hábiles'
+# Pregunta 3: ¿Qué pasa si no puedo ingresar a la plataforma aún con mis datos de acceso?
 # respuesta 3
 tramites3 = '¿Qué pasa si no puedo ingresar a la plataforma aún con mis datos de acceso?\n\nDeberás comunicarte con tu asesor de carrera\n\nhttps://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html#ase'
 
@@ -42,7 +42,7 @@ def tramite_opc_3(update: Update, context: CallbackContext) -> None:
 def start(dispatcher: Dispatcher) -> None:
     """Iniciar los comandos de este modulo en el chatbot"""
     tramites_menu_handler = CommandHandler(
-        'reinscripcion', tramites_menu)
+        'tramites', tramites_menu)
     tramites_opc_1_handler = CommandHandler('tramites_opc1', tramite_opc_1)
     tramites_opc_2_handler = CommandHandler('tramites_opc2', tramite_opc_2)
     tramites_opc_3_handler = CommandHandler('tramites_opc3', tramite_opc_3)
