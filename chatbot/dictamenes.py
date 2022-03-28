@@ -10,13 +10,13 @@ from telegram import Update
 dictamen_comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionadas al tema de Dictámenes.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Qué dictamen debo de solicitar si estoy desfasado?: /dictamen_opc1\nPregunta 2:¿En qué casos debo de solicitar dictamen ZACATENCO?: /dictamen_opc2\nPregunta 3:¿Dónde puedo ver la resolución de mi dictamen?: /dictamen_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 # Pregunta 1: ¿Qué dictamen debo de solicitar si estoy desfasado?
 # respuesta 1
-dictamen1 = '¿Qué dictamen debo de solicitar si estoy desfasado?\n\nSi tu periodo de ingreso es del 17/2 en adelante, deberás solicitar dictamen UPIICSA por oportunidad\n\nSi tu periodo es 17/1 hacía atrás, deberás solicitar dictamen CGC ZACATENCO por oportunidad'
+dictamen1 = '¿Qué dictamen debo de solicitar si estoy desfasado?\n\nSi tu periodo de ingreso es del 17/2 en adelante, deberás solicitar dictamen UPIICSA por oportunidad\n\nSi tu periodo es 17/1 hacía atrás, deberás solicitar dictamen CGC ZACATENCO por oportunidad.\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 # Pregunta 2: ¿En qué casos debo de solicitar dictamen ZACATENCO?
 # respuesta 2
-dictamen2 = '¿En qué casos debo de solicitar dictamen ZACATENCO?\n\nSi tu periodo de ingreso fue del 17/1 hacia atrás debes de solicitar ampliación de plazo para tener derecho a reinscripción\n\nSi tu periodo de ingreso fue del 17/1 hacia atrás y tienes materias adeudadas o desfasas , debes solicitar oportunidad.'
+dictamen2 = '¿En qué casos debo de solicitar dictamen ZACATENCO?\n\nSi tu periodo de ingreso fue del 17/1 hacia atrás debes de solicitar ampliación de plazo para tener derecho a reinscripción\n\nSi tu periodo de ingreso fue del 17/1 hacia atrás y tienes materias adeudadas o desfasas , debes solicitar oportunidad.\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 # Pregunta 3: ¿Dónde puedo ver la resolución de mi dictamen?
 # respuesta 3
-dictamen3 = '¿Dónde puedo ver la resolución de mi dictamen?\n\nSi solicitaste dictamen UPIICSA, directamente en tu SAES en el apartado Dictamenes \n\nSi solicitaste dictamen CGC Zacatenco en la página de UPIICSA https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html#dicz'
+dictamen3 = '¿Dónde puedo ver la resolución de mi dictamen?\n\nSi solicitaste dictamen UPIICSA, directamente en tu SAES en el apartado Dictamenes \n\nSi solicitaste dictamen CGC Zacatenco en la página de UPIICSA https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html#dicz\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
 
 def dictamenMenu(update: Update, context: CallbackContext) -> None:
