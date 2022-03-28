@@ -6,7 +6,7 @@ PAGINA_GESTION_ESCOLAR = 'https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar
 CHATBOT_GE_COMANDOS = 'Hola, mucho gusto. Para comenzar escribe o elige alguno de los siguientes comandos relacionados a los temas de las dudas y preguntas más frecuentes de los alumnos hacia el departamento de Gestión Escolar de la UPIICSA:\n\nReinscripción: /reinscripcion\nTrámites: /tramites\nDictámenes: /dictamenes\nETS: /ETS\nOtros:\nPágina de Gestión Escolar de la UPIICSA: /paginaGE\n\nRecuerda que para escribir un comando este debe de comenzar por una "/" seguido de la palabra clave del tema a consultar sin espacios entre palabras'
 
 
-def start(update: Update, context: CallbackContext) -> None:
+def inicio(update: Update, context: CallbackContext) -> None:
     """Mensaje de inicio del chatbot."""
     context.bot.send_message(
         chat_id=update.effective_chat.id, text=CHATBOT_GE_COMANDOS)
@@ -29,9 +29,10 @@ def pagina_ge(update: Update, context: CallbackContext) -> None:
     context.bot.send_message(chat_id=update.effective_chat.id,
                              text='La página de Gestión Escolar de la UPIICSA es: ${PAGINA_GESTION_ESCOLAR}')
 
+
 def start(dispatcher: Dispatcher) -> None:
     """Iniciar los comandos de este modulo en el chatbot"""
-    start_handler = CommandHandler('start', start)
+    inicio_handler = CommandHandler('start', inicio)
     saludar1_handler = CommandHandler('hola', saludar)
     saludar2_handler = CommandHandler('buenosDias', saludar)
     saludar3_handler = CommandHandler('buenasTardes', saludar)
@@ -42,7 +43,7 @@ def start(dispatcher: Dispatcher) -> None:
     finalizarConsulta3_handler = CommandHandler('adios', finalizar_consulta)
     paginaGe_handler = CommandHandler('paginaGE', PAGINA_GESTION_ESCOLAR)
 
-    dispatcher.add_handler(start_handler)
+    dispatcher.add_handler(inicio_handler)
     dispatcher.add_handler(saludar1_handler)
     dispatcher.add_handler(saludar2_handler)
     dispatcher.add_handler(saludar3_handler)
