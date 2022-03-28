@@ -27,7 +27,7 @@ def finalizar_consulta(update: Update, context: CallbackContext) -> None:
 def pagina_ge(update: Update, context: CallbackContext) -> None:
     """Mensaje con la información de la página de gestión escolar."""
     context.bot.send_message(chat_id=update.effective_chat.id,
-                             text='La página de Gestión Escolar de la UPIICSA es: ${PAGINA_GESTION_ESCOLAR}')
+                             text='La página de Gestión Escolar de la UPIICSA es:' + PAGINA_GESTION_ESCOLAR)
 
 
 def start(dispatcher: Dispatcher) -> None:
@@ -41,7 +41,7 @@ def start(dispatcher: Dispatcher) -> None:
     finalizarConsulta2_handler = CommandHandler(
         'muchasGracias', finalizar_consulta)
     finalizarConsulta3_handler = CommandHandler('adios', finalizar_consulta)
-    paginaGe_handler = CommandHandler('paginaGE', PAGINA_GESTION_ESCOLAR)
+    paginaGe_handler = CommandHandler('paginaGE', pagina_ge)
 
     dispatcher.add_handler(inicio_handler)
     dispatcher.add_handler(saludar1_handler)
