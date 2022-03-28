@@ -1,6 +1,6 @@
 from handler import start_bot
 
-def main():
+def main() -> None:
     start_bot()
     print('Chatbot is running')
 
