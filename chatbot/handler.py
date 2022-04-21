@@ -7,6 +7,8 @@ import dictamenes as dictamentes_comandos
 import ets as ets_comandos
 import tramites as tramites_comandos
 import reinscripcion as reinscripcion_comandos
+import inscripcionNI as inscripcionNI_comandos
+import bajaDeUnidades as bajaDeUnidades_comandos
 import error_handler as error_handler
 
 updater = Updater(token=BOT_TOKEN, use_context=True)
@@ -24,6 +26,10 @@ def start_bot():
     ets_comandos.start(dispatcher=dispatcher)
     reinscripcion_comandos.start(dispatcher=dispatcher)
     tramites_comandos.start(dispatcher=dispatcher)
+
+    #Sprint 3
+    inscripcionNI_comandos.start(dispatcher=dispatcher)
+    bajaDeUnidades_comandos.start(dispatcher=dispatcher)
 
     # Modulo de manejo de errores
     error_handler.start(dispatcher=dispatcher)
