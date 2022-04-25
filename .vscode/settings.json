@@ -1,6 +1,0 @@
-{
-    "python.pythonPath": "/home/manuelr/chatbot-telegram-env/bin/python3",
-    "python.analysis.extraPaths": [
-        "./chatbot"
-    ]
-}
