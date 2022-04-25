@@ -3,7 +3,7 @@ from telegram.ext import CallbackContext, CommandHandler, Dispatcher
 
 PAGINA_GESTION_ESCOLAR = 'https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html'
 
-CHATBOT_GE_COMANDOS = 'Hola, para comenzar escribe o elige alguno de los siguientes comandos relacionados a los temas de las dudas y preguntas más frecuentes de los alumnos hacia el departamento de Gestión Escolar de la UPIICSA:\n\nReinscripción: /reinscripcion\nTrámites: /tramites\nDictámenes: /dictamenes\nETS: /ETS\nInscripción: /inscripcion\nBaja de unidades: /bajaDeUnidades\nOtros:\nPágina de Gestión Escolar de la UPIICSA: /paginaGE\n\nRecuerda que para escribir un comando este debe de comenzar por una "/" seguido de la palabra clave del tema a consultar sin espacios entre palabras'
+CHATBOT_GE_COMANDOS = 'Hola, para comenzar escribe o elige alguno de los siguientes comandos relacionados a los temas de las dudas y preguntas más frecuentes de los alumnos hacia el departamento de Gestión Escolar de la UPIICSA:\n\nReinscripción: /reinscripcion\nTrámites: /tramites\nDictámenes: /dictamenes\nETS: /ETS\nInscripción: /inscripcion\nBaja de unidades: /bajaDeUnidades\nBajas: /bajas\nOtros:\nPágina de Gestión Escolar de la UPIICSA: /paginaGE\n\nRecuerda que para escribir un comando este debe de comenzar por una "/" seguido de la palabra clave del tema a consultar sin espacios entre palabras'
 
 
 def inicio(update: Update, context: CallbackContext) -> None:
