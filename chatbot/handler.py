@@ -10,6 +10,7 @@ import reinscripcion as reinscripcion_comandos
 import inscripcionNI as inscripcionNI_comandos
 import bajaDeUnidades as bajaDeUnidades_comandos
 import bajas as bajas_comandos
+import espa as espa_comandos
 import error_handler as error_handler
 
 updater = Updater(token=BOT_TOKEN, use_context=True)
@@ -32,6 +33,7 @@ def start_bot():
     inscripcionNI_comandos.start(dispatcher=dispatcher)
     bajaDeUnidades_comandos.start(dispatcher=dispatcher)
     bajas_comandos.start(dispatcher=dispatcher)
+    espa_comandos.start(dispatcher=dispatcher)
 
     # Modulo de manejo de errores
     error_handler.start(dispatcher=dispatcher)
