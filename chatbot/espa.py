@@ -10,9 +10,9 @@ from telegram import Update
 #mensajes de regreso al menu
 mensaje_regreso_menu = 'Si deseas seguir viendo las dudas y preguntas relacionadas al tema de Examenes de Saberes Previamente Adquiridos utiliza el comando: /espa\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Bajas.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿En que casos debo presentar saberes previamente adquiridos?: /espa_opc1\nPregunta 2:¿Cuántas veces puedo presentar un examen de saberes previamente adquiridos?: /espa_opc2\nPregunta 3:¿Qué proceso debo seguir para presentar un examen de saberes previmente adquiridos?: /espa_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Examenes de Saberes Previamente Adquiridos.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿En que casos debo presentar saberes previamente adquiridos?: /espa_opc1\nPregunta 2:¿Cuántas veces puedo presentar un examen de saberes previamente adquiridos?: /espa_opc2\nPregunta 3:¿Qué proceso debo seguir para presentar un examen de saberes previmente adquiridos?: /espa_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-espa1 = '¿En que casos debo presentar saberes previamente adquiridos?\n\nEl alumno debera estar inscrito y no haberla cursado con anterioridad,\n\n\n' + mensaje_regreso_menu
+espa1 = '¿En que casos debo presentar saberes previamente adquiridos?\n\nEl alumno debera estar inscrito y no haberla cursado con anterioridad.\n\n\n' + mensaje_regreso_menu
 
 espa2 = '¿Cuántas veces puedo presentar un examen de saberes previamente adquiridos?\n\nPuede presentar cada unidad de aprendizaje una sola vez durante toda su trayectoria académica.\n\n\n' + mensaje_regreso_menu
 

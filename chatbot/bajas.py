@@ -14,7 +14,7 @@ comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta q
 
 bajas1 = '¿Hasta cuándo tengo para darme de baja temporal?\n\nDentro del primer mes iniciado el periodo escolar y por causas de fueza mayor probatorias durante todo el periodo. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-esoclar.html#baj\n\n\n' + mensaje_regreso_menu
 
-bajas2 = '¿Hasta cuándo tengo para darme de baja definitiva?\n\nDurante todo el periodo escola. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-esoclar.html#baj\n\n\n' + mensaje_regreso_menu
+bajas2 = '¿Hasta cuándo tengo para darme de baja definitiva?\n\nDurante todo el periodo escolar. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-esoclar.html#baj\n\n\n' + mensaje_regreso_menu
 
 bajas3 = '¿Una vez que regrese de baja temporal como podré reinscribirme?\n\nDeberás solicitar tu cita con el departamento de gestión escolar de manera presencial o via Whatsapp https://www.upiicsa.ipn.mx/estudiantes/gestions-escolar.html#ase\nTu cita dependerá del estatus como alumno regural o irregular. NO PODRÁS SOLICITAR BAJA con materias desfasadas.\n\n\n' + mensaje_regreso_menu
 
