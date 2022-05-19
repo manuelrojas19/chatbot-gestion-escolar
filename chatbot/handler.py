@@ -11,7 +11,10 @@ import inscripcionNI as inscripcionNI_comandos
 import bajaDeUnidades as bajaDeUnidades_comandos
 import bajas as bajas_comandos
 import espa as espa_comandos
+import cargaMenor as cargaMenor_comandos
+import electivas as electivas_comandos
 import error_handler as error_handler
+
 
 updater = Updater(token=BOT_TOKEN, use_context=True)
 dispatcher = updater.dispatcher
@@ -34,6 +37,10 @@ def start_bot():
     bajaDeUnidades_comandos.start(dispatcher=dispatcher)
     bajas_comandos.start(dispatcher=dispatcher)
     espa_comandos.start(dispatcher=dispatcher)
+
+    #Sprint 4
+    cargaMenor_comandos.start(dispatcher=dispatcher)
+    electivas_comandos.start(dispatcher=dispatcher)
 
     # Modulo de manejo de errores
     error_handler.start(dispatcher=dispatcher)
