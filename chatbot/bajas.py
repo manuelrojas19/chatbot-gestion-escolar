@@ -12,11 +12,11 @@ mensaje_regreso_menu = 'Si deseas seguir viendo las dudas y preguntas relacionad
 
 comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Bajas.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Hasta cuándo tengo para darme de baja temporal?: /bajas_opc1\nPregunta 2:¿Hasta cuándo tengo para darme de baja definitiva?: /bajas_opc2\nPregunta 3:¿Una vez que regrese de baja temporal como podré reinscribirme?: /bajas_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-bajas1 = '¿Hasta cuándo tengo para darme de baja temporal?\n\nDentro del primer mes iniciado el periodo escolar y por causas de fueza mayor probatorias durante todo el periodo. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-esoclar.html#baj\n\n\n' + mensaje_regreso_menu
+bajas1 = '¿Hasta cuándo tengo para darme de baja temporal?\n\nDentro del primer mes iniciado el periodo escolar y por causas de fueza mayor probatorias durante todo el periodo. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html#baj\n\n\n' + mensaje_regreso_menu
 
-bajas2 = '¿Hasta cuándo tengo para darme de baja definitiva?\n\nDurante todo el periodo escolar. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-esoclar.html#baj\n\n\n' + mensaje_regreso_menu
+bajas2 = '¿Hasta cuándo tengo para darme de baja definitiva?\n\nDurante todo el periodo escolar. Se debe consultar las fechas de publicación y proceso a seguir en https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html#baj\n\n\n' + mensaje_regreso_menu
 
-bajas3 = '¿Una vez que regrese de baja temporal como podré reinscribirme?\n\nDeberás solicitar tu cita con el departamento de gestión escolar de manera presencial o via Whatsapp https://www.upiicsa.ipn.mx/estudiantes/gestions-escolar.html#ase\nTu cita dependerá del estatus como alumno regural o irregular. NO PODRÁS SOLICITAR BAJA con materias desfasadas.\n\n\n' + mensaje_regreso_menu
+bajas3 = '¿Una vez que regrese de baja temporal como podré reinscribirme?\n\nDeberás solicitar tu cita con el departamento de gestión escolar de manera presencial o via Whatsapp https://www.upiicsa.ipn.mx/estudiantes/gestion-escolar.html#ase\nTu cita dependerá del estatus como alumno regural o irregular. NO PODRÁS SOLICITAR BAJA con materias desfasadas.\n\n\n' + mensaje_regreso_menu
 
 
 def menu(update: Update, context: CallbackContext) -> None:
