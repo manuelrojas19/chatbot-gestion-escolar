@@ -13,6 +13,7 @@ import bajas as bajas_comandos
 import espa as espa_comandos
 import cargaMenor as cargaMenor_comandos
 import electivas as electivas_comandos
+import equivalencias as equivalencias_comandos
 import error_handler as error_handler
 
 
@@ -41,6 +42,7 @@ def start_bot():
     #Sprint 4
     cargaMenor_comandos.start(dispatcher=dispatcher)
     electivas_comandos.start(dispatcher=dispatcher)
+    equivalencias_comandos.start(dispatcher=dispatcher)
 
     # Modulo de manejo de errores
     error_handler.start(dispatcher=dispatcher)
