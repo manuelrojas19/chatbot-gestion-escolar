@@ -41,7 +41,7 @@ def etsOpc2(update: Update, context: CallbackContext) -> None:
 
 
 def etsOpc3(update: Update, context: CallbackContext) -> None:
-    context.bot.send_message(chat_id=update.effective_chat.id, text=ets3)
+    context.bot.send_message(chat_id=update.effective_chat.id, text=ETS_RESPUESTA_TRES)
 
 
 def start(dispatcher: Dispatcher) -> None:
