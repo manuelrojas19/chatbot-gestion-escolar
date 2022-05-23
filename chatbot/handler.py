@@ -15,7 +15,7 @@ import cargaMenor as cargaMenor_comandos
 import electivas as electivas_comandos
 import equivalencias as equivalencias_comandos
 import error_handler as error_handler
-
+import global_message_handler as global_handler
 
 updater = Updater(token=BOT_TOKEN, use_context=True)
 dispatcher = updater.dispatcher
@@ -45,6 +45,8 @@ def start_bot():
     equivalencias_comandos.start(dispatcher=dispatcher)
 
     # Modulo de manejo de errores
+
     error_handler.start(dispatcher=dispatcher)
+    global_handler.start(dispatcher=dispatcher)
 
     updater.start_polling()
