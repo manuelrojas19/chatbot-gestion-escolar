@@ -10,7 +10,7 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup, Update
 # mensajes de regreso al menu
 mensaje_regreso_menu = 'Si deseas seguir viendo las dudas y preguntas relacionadas al tema de Electivas utiliza el comando: /electivas\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Electivas.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Cuándo procede un dictamen UPIICSA para acreditar Electivas?: /electivas_opc1\nPregunta 2:¿Cuándo procede un dictamen Zacatenco para acreditar Electivas?: /electivas_opc2\nPregunta 3:¿En cuánto tiempo se verá reflejada mi electiva en kardex?: /electivas_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+comandos = 'Por favor selecciona la opción de los recuadros de abajo o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Electivas.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Cuándo procede un dictamen UPIICSA para acreditar Electivas?: /electivas_opc1\nPregunta 2:¿Cuándo procede un dictamen Zacatenco para acreditar Electivas?: /electivas_opc2\nPregunta 3:¿En cuánto tiempo se verá reflejada mi electiva en kardex?: /electivas_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
 ELECTIVAS_PREGUNTA_UNO = '¿Cuándo procede un dictamen UPIICSA para acreditar Electivas?'
 ELECTIVAS_PREGUNTA_DOS = '¿Cuándo procede un dictamen Zacatenco para acreditar Electivas?'

@@ -10,7 +10,7 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup, Update
 # mensajes de regreso al menu
 mensaje_regreso_menu = 'Si deseas seguir viendo las dudas y preguntas relacionadas al tema de Dictámenes utiliza el comando: /dictamenes\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-dictamen_comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Dictámenes.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Qué dictamen debo de solicitar si estoy desfasado?: /dictamen_opc1\nPregunta 2:¿En qué casos debo de solicitar dictamen ZACATENCO?: /dictamen_opc2\nPregunta 3:¿Dónde puedo ver la resolución de mi dictamen?: /dictamen_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+dictamen_comandos = 'Por favor selecciona la opción de los recuadros de abajo o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Dictámenes.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Qué dictamen debo de solicitar si estoy desfasado?: /dictamen_opc1\nPregunta 2:¿En qué casos debo de solicitar dictamen ZACATENCO?: /dictamen_opc2\nPregunta 3:¿Dónde puedo ver la resolución de mi dictamen?: /dictamen_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
 DICTAMEN_PREGUNTA_UNO = '¿Qué dictamen debo de solicitar si estoy desfasado?'
 DICTAMEN_PREGUNTA_DOS = '¿En qué casos debo de solicitar dictamen ZACATENCO?'
