@@ -10,7 +10,7 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup, Update
 #mensajes de regreso al menu
 mensaje_regreso_menu = 'Si deseas seguir viendo las dudas y preguntas relacionadas al tema de Inscripción utiliza el comando: /inscripcion\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-inscripcion_comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Inscripción.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Qué documentos debo de entregar?: /inscripcion_opc1\nPregunta 2:¿Cómo podré ver mi horario?: /inscripcion_opc2\nPregunta 3:¿Cómo solicito cambio de turno?: /inscripcion_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+inscripcion_comandos = 'Por favor selecciona la opción de los recuadros de abajo o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Inscripción.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Qué documentos debo de entregar?: /inscripcion_opc1\nPregunta 2:¿Cómo podré ver mi horario?: /inscripcion_opc2\nPregunta 3:¿Cómo solicito cambio de turno?: /inscripcion_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 # Pregunta 1: ¿Qué documentos debo de entregar?
 # respuesta 1
 

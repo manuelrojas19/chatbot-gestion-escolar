@@ -11,7 +11,7 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup, Update
 # BAJAS
 # mensajes de regreso al menu
 MENSAJE_REGRESO_MENU = 'Si deseas seguir viendo las dudas y preguntas relacionadas al tema de Bajas utiliza el comando: /bajas\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
-COMANDOS = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Bajas.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Hasta cuándo tengo para darme de baja temporal?: /bajas_opc1\nPregunta 2:¿Hasta cuándo tengo para darme de baja definitiva?: /bajas_opc2\nPregunta 3:¿Una vez que regrese de baja temporal como podré reinscribirme?: /bajas_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+COMANDOS = 'Por favor selecciona la opción de los recuadros de abajo o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Bajas.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Hasta cuándo tengo para darme de baja temporal?: /bajas_opc1\nPregunta 2:¿Hasta cuándo tengo para darme de baja definitiva?: /bajas_opc2\nPregunta 3:¿Una vez que regrese de baja temporal como podré reinscribirme?: /bajas_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 BAJAS_PREGUNTA_UNO = '¿Hasta cuándo tengo para darme de baja temporal?'
 BAJAS_PREGUNTA_DOS = '¿Hasta cuándo tengo para darme de baja definitiva?'
 BAJAS_PREGUNTA_TRES = '¿Una vez que regrese de baja temporal como podré reinscribirme?'

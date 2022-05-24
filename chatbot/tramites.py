@@ -10,7 +10,7 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup, Update
 #mensajes de regreso al menu
 mensaje_regreso_menu = 'Si deseas seguir viendo las dudas y preguntas relacionadas al tema de Trámites utiliza el comando: /tramites\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
-tramites_comandos = 'Por favor selecciona o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Trámites.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Dónde puedo solicitar un trámite?: /tramites_opc1\nPregunta 2:¿Cuánto es el tiempo de espera de mi trámite?: /tramites_opc2\nPregunta 3:¿Qué pasa si no puedo ingresar a la plataforma aún con mis datos de acceso?: /tramites_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
+tramites_comandos = 'Por favor selecciona la opción de los recuadros de abajo o escribe el comando de acuerdo a la pregunta que deseas consultar relacionada al tema de Trámites.\nCada pregunta tiene un comando asociado, verifica y elige el adecuado.\n\nPregunta 1:¿Dónde puedo solicitar un trámite?: /tramites_opc1\nPregunta 2:¿Cuánto es el tiempo de espera de mi trámite?: /tramites_opc2\nPregunta 3:¿Qué pasa si no puedo ingresar a la plataforma aún con mis datos de acceso?: /tramites_opc3\n\nSi deseas volver para consultar el menú principal de los temas que abarca este Chatbot utiliza el comando: /start'
 
 
 TRAMITES_PREGUNTA_UNO = '¿Dónde puedo solicitar un trámite?'
